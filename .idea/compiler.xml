@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-server-admin" />
         <module name="cloud-server-config" />
         <module name="cloud-server-eureka" />
         <module name="cloud-server-hystrix-dashboard" />
         <module name="cloud-server-turbine" />
         <module name="cloud-server-zuul" />
-        <module name="cloud-service-api" />
         <module name="cloud-service-commom" />
         <module name="cloud-service-feign" />
         <module name="cloud-service-feignconsumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-server-admin" target="1.8" />
       <module name="cloud-server-config" target="1.8" />
       <module name="cloud-server-eureka" target="1.8" />
       <module name="cloud-server-hystrix-dashboard" target="1.8" />
